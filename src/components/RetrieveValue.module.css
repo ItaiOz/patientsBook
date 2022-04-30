@@ -1,0 +1,15 @@
+.retrieve__control input:not([type="radio"]),
+select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 10rem;
+  max-width: 100%;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+  margin-right: 1rem;
+  margin-left: 1rem;
+}

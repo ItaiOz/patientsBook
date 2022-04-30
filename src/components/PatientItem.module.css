@@ -1,0 +1,68 @@
+.patient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.5rem; */
+  /* margin: 1rem 0; */
+  background-color: #acacac;
+  /* border-radius: 12px; */
+  border-bottom: 3px solid black;
+}
+
+/* .line-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  align-items: flex-end;
+   flex-flow: column-reverse;  
+  justify-content: flex-start;
+  flex: 1;
+} */
+
+.patient-item h4 {
+  /* color: #3a3a3a; */
+  /* font-size: 1rem; */
+  /* flex: 1; */
+  /* margin-right: 0 14rem; */
+  color: rgb(0, 0, 0);
+  margin: 0.5em;
+}
+
+.patient-item__name {
+  font-size: 0.75em;
+  min-width: 20%;
+}
+
+.patient-item__measures {
+  /* padding: 1rem; */
+  /* color: #40005d; */
+  /* font-size: 1.5em; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 40%;
+}
+
+small {
+  font-size: 0.8rem;
+}
+span {
+  font-weight: bold;
+}
+@media (min-width: 580px) {
+  .patient-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  /* .line-item__description h2 {
+    font-size: 1.25rem;
+  }
+
+  .line-item__price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  } */
+}

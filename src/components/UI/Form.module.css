@@ -1,0 +1,16 @@
+.patient_data {
+  background-color: #c4d6d2;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.retrieve__controls {
+  display: flex;
+  /* flex-direction: inherit; */
+  justify-content: space-between;
+  align-items: center;
+}

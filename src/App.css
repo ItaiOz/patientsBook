@@ -1,0 +1,15 @@
+section,
+main {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 70rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.buttons__main {
+  display: flex;
+  justify-content: space-evenly;
+}
